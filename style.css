@@ -1,0 +1,362 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #D9EFDE;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.Header ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding-left: 40px;
+    padding-top: 10px;
+    font-size: 20px;
+
+}
+.Header i{
+    display: none;
+}
+.ConBtn{
+    width: 158px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px #232E26 solid;
+    background-color: #D9EFDE;
+    
+    
+    padding: 4px 10px 4px 10px;
+    gap: 4px;
+    font-size: 20px;
+    
+}
+.DownBtn{
+    width: 185px;
+    height: 50px;
+    border-radius: 20px;
+    border:0.5px #232E26 ;
+    padding: 4px 10px 4px 10px;
+    gap: 4px;
+    font-size: 20px;
+    background-color: #232E26;
+    color: white;
+}
+.body-parent{
+    display: flex;
+    justify-content: space-between;
+    background-color: #232E26;
+    height: 500px;
+    padding: 20px 90px;
+    
+}
+.body-left{
+    color: white;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.AppBtn{
+    width: 185px;
+    height: 50px;
+    border-radius: 20px;
+    border:0.5px #232E26 solid ;
+    padding: 4px 10px 4px 10px;
+    gap: 4px;
+    font-size: 20px;
+    
+    color: #232E26;
+    margin-top: 14px;
+
+}
+.body-right img{
+    width: 450px;
+    padding-top: 30px;
+}
+.Main-parent{
+    display: flex;
+    justify-content: space-between;
+    height: 590px;
+    padding-top: 30px;
+    padding: 20px 50px;
+    background-color: #D9EFDE;
+    border-radius: 40px;
+    gap: 30px;
+}
+.Main-left{
+    padding: 20px 50px;
+}
+.Main-left h1{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.Main-left p{
+    font-size: 60px;
+    padding-top: 40px;
+}
+.Main-middle img{
+    width: 250px;
+}
+.Main-middle p{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.Main-right img{
+    width: 250px;
+}
+.Main-right p{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.Main-last img{
+    width: 250px;
+}
+.Main-last p{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.Testimonial{
+    background-color: #232E26;
+    color: white;
+    
+}
+.Testimonial h1{
+    padding: 20px 80px;
+}
+.Testimonial p{
+    text-align: center;
+    font-size: 40px;
+}
+.Testimonial h2{
+    padding: 20px 50px;
+}
+.Trip {
+    height: 660px;
+    background-color: #D9EFDE;
+    border-radius: 30px;
+    
+}
+.Trip h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+}
+.Trip img{
+    padding-left: 80px;
+    width: 1200px;
+    padding-top: 20px;
+    height: 500px;
+}
+.Ganey{
+    background-color: #232E26;
+    color: white;
+    height: 500px;
+    padding-left: 200px;
+    /* background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://img.freepik.com/premium-photo/woman-asian-travel-nature-travel-relax-explore-location-map-take-photos_36074-553.jpg?w=740");
+    background-repeat: no-repeat;
+    background-size: 1500px; */
+    
+    
+}
+.Ganey h1{
+    padding: 20px 50px;
+}
+.Ganey p{
+    font-size: 40px;
+    padding-left: 260px;
+}
+.Ganey h2{
+    font-size: 20px;
+    padding-left: 100px;
+    padding-top: 17px;
+}
+.Lastfooter-parent{
+    display: flex;
+    background-color: #232E26;
+    color: white;
+    margin-top: 40px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* margin-top: 100px; */
+}
+.Last-footerleft h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.last-footer-middle ul{
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.last-footer-right ul{
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    
+}
+.email{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    width: 300px;
+    height: 300px;
+}
+.email button{
+   background-color: #D9EFDE;
+   color: #232E26;
+   border-radius: 10px;
+   font-size: 20px;
+   width: 200px;
+   height: 50px;
+   margin-top: 20px;
+}
+.Copyright{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.Copyright ul{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px){
+    .Header ul{
+        display: none;
+    }
+    .Header button{
+        display: none;
+    }
+    .Header i{
+        font-size: 36px;
+        padding-left: 165px;
+        display: block;
+    }
+    .body-parent{
+        flex-direction: column;
+        height: 1300px;
+    }
+    .body-left h1{
+        font-size: 55px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        
+    }
+    .body-left p{
+        font-size: 23px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .body-right img{
+        width: 330px;
+        height: 400px;
+    
+        
+    }
+    .Main-parent{
+        flex-direction: column;
+        height: 2400px;
+    }
+    .Main-parent img{
+        width: 300px;
+    }
+    .Main-left h1{
+        font-size: 40px;
+    }
+    .Trip img{
+        width: 340px;
+        height: 400px;
+    }
+    .Ganey {
+        padding-right: 200px;
+        height: 1400px;
+        
+    }
+    .Lastfooter-parent{
+        flex-direction: column;
+        padding-left: 100px;
+        
+
+    }
+    .Last-footerleft h1{
+        font-size: 50px;
+    }
+    .last-footer-middle ul{
+        font-size: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .last-footer-right ul{
+        font-size: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .email {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .email button{
+        background-color: #D9EFDE;
+        margin-top: 80px;
+        width: 180px;
+        height: 60px;
+        color: #232E26;
+    }
+    .Copyright{
+        margin-bottom: 70px;
+        font-size: 30px;
+    }
+
+    .body-right img {
+        width: 300px;
+        padding: 0;
+        margin-left: -30px;
+    }
+    .body-right {
+        margin: 0;
+        padding: 0;
+    }
+
+    .Ganey {
+        padding: 0px;
+        margin: 0px;
+        height: 700px;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+.Ganey p {
+    padding: 10px;
+}
+    .Ganey h1 {
+        padding: 0px;
+    }
+    .Trip img{
+        padding: 0px;
+        margin: 0px;
+        padding-left: 30px;
+    }
+
+
+}
